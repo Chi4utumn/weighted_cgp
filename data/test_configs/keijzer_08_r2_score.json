@@ -1,0 +1,92 @@
+{
+    "population_size": 333,
+    "max_generations": 111,
+    "m_probability": 0.16,
+    "mutation_counter": 15,
+    "operators": {
+        "arity": {
+            "+": 2,
+            "-": 2,
+            "*": 2,
+            "/": 2,
+            "Sin": 1,
+            "Cos": 1,
+            "Pow2": 1,
+            "Sqrt": 1,
+            "exp": 1,
+            "log": 1
+        },
+        "usedops": [
+            "-",
+            "Sqrt",
+            "Cos",
+            "+",
+            "Sin",
+            "log",
+            "Pow2",
+            "/",
+            "exp",
+            "*"
+        ],
+        "operations": {
+            "0": "+",
+            "1": "-",
+            "2": "*",
+            "3": "/",
+            "4": "Sin",
+            "5": "Cos",
+            "6": "Pow2",
+            "7": "Sqrt",
+            "8": "exp",
+            "9": "log"
+        }
+    },
+    "constant_range": [
+        -15,
+        15
+    ],
+    "randomstate": null,
+    "random_seed": 688591315,
+    "random_state": [
+        "MT19937",
+        null,
+        623,
+        0,
+        0.0
+    ],
+    "constant_size": 2,
+    "rows": 1,
+    "columns": 53,
+    "levels_back": null,
+    "es_mu": 1,
+    "es_lambda": 40,
+    "fitness_fct": "r2_score",
+    "evaluators": [
+        "mae",
+        "mse",
+        "r2_score",
+        "vaf"
+    ],
+    "problem": "keijzer_8",
+    "problem_inputs": 1,
+    "problem_outputs": 1,
+    "from_csv": null,
+    "trainsize": null,
+    "testsize": null,
+    "splitfactor": null,
+    "show_plt": false,
+    "verbose": false,
+    "notation": "plus",
+    "elitism": false,
+    "repro_probability": null,
+    "x_probability": null,
+    "limit": 100,
+    "algorithm": "weighted CGP",
+    "fitness_strategy": "best",
+    "uid": 23190,
+    "log": {
+        "log_level": "INFO",
+        "timestamp": "2019-11-10_15-48-33",
+        "data_size": "S"
+       }
+}
